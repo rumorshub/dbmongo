@@ -1,0 +1,5 @@
+db:
+  mongo:
+    default:
+      uri: mongodb://username:password@0.0.0.0:27017/dbname?authMechanism=SCRAM-SHA-1&authSource=admin
+      ping: false
